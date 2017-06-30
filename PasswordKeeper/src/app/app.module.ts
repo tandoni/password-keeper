@@ -42,6 +42,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { SigninComponent } from './+signin/signin.component';
 import { MainComponent } from './+main/main.component';
 import { PasswordDialogComponent } from './password-dialog/password-dialog.component';
+import { PasswordDisplayCardComponent } from './password-display-card/password-display-card.component';
 
 export const MaterialModules = [
   MdAutocompleteModule,
@@ -75,6 +76,7 @@ export const MaterialModules = [
     SigninComponent,
     MainComponent,
     PasswordDialogComponent,
+    PasswordDisplayCardComponent,
   ],
   entryComponents: [
     PasswordDialogComponent,
