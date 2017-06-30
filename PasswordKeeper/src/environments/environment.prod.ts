@@ -8,4 +8,5 @@ export const environment = {
     storageBucket: "tandoni-password-keeper.appspot.com",
     messagingSenderId: "752907591207"
   },
+  rosefireRegistryToken: "d61711a3-f14d-4d60-b667-c328748b9fa9",
 };
