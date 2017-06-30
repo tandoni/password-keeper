@@ -39,6 +39,8 @@ import {
 } from '@angular/material';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { SigninComponent } from './+signin/signin.component';
+import { MainComponent } from './+main/main.component';
 
 export const MaterialModules = [
   MdAutocompleteModule,
@@ -68,7 +70,9 @@ export const MaterialModules = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SigninComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
